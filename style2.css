@@ -1,4 +1,3 @@
-
 body {
     padding: 0;
     margin: 0;
@@ -51,30 +50,30 @@ body {
   }
   
   /* Roast types */
+  /*change daskseagreeen to its hex value*/
   .green {
-    background-color: darkseagreen;
+    background-color: #8FBC8F;
   }
   
   .light {
-    background-color: sienna;
+    background-color: #A0522D;
   }
   
   .city {
-    background-color: saddlebrown;
+    background-color: #8B4513;
   }
   
   .vienna {
-    background-color: brown;
+    background-color: #A52A2A;
   }
   
   .italian {
-    background-color: black;
+    background-color: #000000;
   }
   
   /* Typography */
-  /* changing foreground color to midnightblue and background to aqua*/
   h1 {
-    color: midnightblue;
+    color: #41292C;
     font-family: 'Covered By Your Grace', sans-serif;
     font-size: 100px;
     line-height: 76px;
@@ -82,6 +81,7 @@ body {
     position: relative;
     text-align: center;
     top: 20%;
+    color: midnightblue;
     background-color: aqua;
   }
   
@@ -129,7 +129,7 @@ body {
     margin: 100px 0px;
     padding-bottom: 60px;
   }
-
+  
   p {
     color: #444444;
     line-height: 32px;
@@ -148,6 +148,4 @@ body {
     text-decoration: none;
     letter-spacing: 2px;
   }
-
-
   

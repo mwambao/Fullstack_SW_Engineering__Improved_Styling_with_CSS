@@ -1,0 +1,14 @@
+
+/*show cursor*/
+a {
+    color: #466995;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  /* On hover, keep same color,remove underline  */
+a:hover {
+    color: #466995;
+    text-decoration: none;
+
+}

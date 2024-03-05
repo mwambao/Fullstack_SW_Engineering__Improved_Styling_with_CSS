@@ -1,0 +1,36 @@
+.question-link:visited {
+    color: #ffffff;
+  }
+  
+  a {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  a:link {
+    color: #61bff9;
+  }
+  
+  a:visited, .answer {
+    color: #466995;
+  }
+  
+  a:hover { 
+    text-decoration: none;
+  }
+  
+  a:active, .answer:active {
+    color: #DBE9EE;
+  }
+  
+  /* creating a flat style*/
+  .answer {
+    border: 1px solid;
+    color: #466995;
+  }
+
+  /* adding active style*/
+  .answer:active {
+    background-color: #C0D6DF;
+    color: #ffffff;
+  }

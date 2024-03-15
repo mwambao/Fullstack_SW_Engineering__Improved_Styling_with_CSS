@@ -1,0 +1,22 @@
+
+/*This makes the list items to be on one line*/
+.breadcrumb > li {
+    display: inline;
+
+}
+
+/* > will be shown to seperate the listed items*/
+.breadcrumb li+li::before {
+	padding: 10px;
+    content: ">";
+
+}
+
+.breadcrumb a {
+    text-decoration: none;
+
+}
+
+.breadcrumb a:hover {
+color: red;
+}

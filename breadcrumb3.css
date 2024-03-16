@@ -1,0 +1,32 @@
+/* Styling for breadcrumb container */
+.breadcrumb {
+    text-align: left; /* Align breadcrumb items to the left */
+}
+
+/* Styling for individual breadcrumb list items */
+.breadcrumb li {
+    display: inline; /* Display list items inline */
+}
+
+/* Styling for the pseudo-element before every list item except the first */
+.breadcrumb li+li::before {
+    color: gray; /* Color of the separator */
+    content: ">"; /* Content of the separator */
+}
+
+/* Styling for breadcrumb links */
+.breadcrumb a {
+    display: inline; /* Display links inline */
+}
+
+/* Styling for the pseudo-element before every list item with class 'location' except the first */
+.breadcrumb li.location+li.location::before {
+    content: ">"; /* Content of the separator */
+}
+
+/* Styling for links with class 'attribute' */
+.attribute a {
+    color: gray; /* Color of the links */
+}
+
+/* Styling for the pseudo-element after links with class 'attribute' */

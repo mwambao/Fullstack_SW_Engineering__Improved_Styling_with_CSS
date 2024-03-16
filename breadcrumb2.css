@@ -1,0 +1,62 @@
+/* Set text alignment for breadcrumb */
+.breadcrumb {
+    text-align: left; /* Align breadcrumb items to the left */
+  }
+  
+  /* Style for individual breadcrumb items */
+  .breadcrumb li {
+    float: left; /* Float breadcrumb items to the left */
+  }
+  
+  /* Styling for breadcrumb links */
+  .breadcrumb a {
+    color: #fff; /* Text color */
+    background: darkcyan; /* Background color */
+    text-decoration: none; /* Remove default underline */
+    position: relative; /* Establish positioning context */
+    height: 30px; /* Set height of breadcrumb links */
+    line-height: 30px; /* Set line height */
+    text-align: center; /* Center text horizontally */
+    margin-right: 15px; /* Space between breadcrumb links */
+    padding: 0 5px; /* Padding inside breadcrumb links */
+  }
+  
+  /* Styling for breadcrumb link pseudo-elements */
+  .breadcrumb a::before,
+  .breadcrumb a::after {
+    content: ""; /* Empty content for pseudo-elements */
+    position: absolute; /* Positioning for pseudo-elements */
+    border-color: darkcyan; /* Border color */
+    border-style: solid; /* Border style */
+    border-width: 15px 5px; /* Border width */
+  }
+  
+  /* Styling for breadcrumb link pseudo-element before */
+  .breadcrumb a::before {
+    left: -10px; /* Position to the left of breadcrumb link */
+    border-left-color: transparent; /* Transparent border on the left */
+  }
+  
+  /* Styling for breadcrumb link pseudo-element after */
+  .breadcrumb a::after {
+    left: 100%; /* Position to the right of breadcrumb link */
+    border-color: transparent; /* Transparent border */
+    border-left-color: darkcyan; /* Border color on the left */
+  }
+  
+  /* Hover styling for breadcrumb links */
+  .breadcrumb a:hover {
+    background-color: blue; /* Change background color on hover */
+  }
+  
+  /* Hover styling for breadcrumb link pseudo-element before */
+  .breadcrumb a:hover::before {
+    border-color: blue; /* Change border color on hover */
+    border-left-color: transparent; /* Transparent border on the left */
+  }
+  
+  /* Hover styling for breadcrumb link pseudo-element after */
+  .breadcrumb a:hover::after {
+    border-left-color: blue; /* Change border color on the left */
+  }
+  
